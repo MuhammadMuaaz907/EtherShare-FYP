@@ -12,13 +12,12 @@
 ## 📜 Functional Requirements (FRs)  
 
 ### 1. User Authentication & Access Control  
-```
+
 **1.1** User Registration/Login (with Multi-Factor Authentication - MFA) <br>  
 **1.2** Role-based Access Control (Admin, User) <br>  
 **1.3** Invitation-based User Onboarding via Email <br>  
 **1.4** Session Management (Auto Logout on Inactivity) <br>  
 **1.5** Password Recovery & Reset Mechanism <br>
-```
 
 ### 2. Workspaces & Collaboration  
 
