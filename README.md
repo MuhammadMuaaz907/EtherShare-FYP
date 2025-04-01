@@ -1,80 +1,76 @@
-<h1>EtherShare - Blockchain based Secure File Sharing and Communication App</h1><br>
+# EtherShare - Blockchain based Secure File Sharing and Communication App
 
-<h2>Project Description</h2>
+## Project Description
 
-<h2>Group Memebers:</h2>
-Muhammad Muaaz Waleed (14470)<br>
-Syed Yawer Ali <br>
-Samra Maryum <br>
-Taha Khan <br>
+## Group Members:
+- **Muhammad Muaaz Waleed** (14470)
+- **Syed Yawer Ali**
+- **Samra Maryum**
+- **Taha Khan**
 
+## 📜 Functional Requirements (FRs)
 
-<h2>📜 Functional Requirements (FRs)</h2>
+### 1. User Authentication & Access Control
+- **1.1** User Registration/Login (with Multi-Factor Authentication - MFA)
+- **1.2** Role-based Access Control (Admin, User)
+- **1.3** Invitation-based User Onboarding via Email
+- **1.4** Session Management (Auto Logout on Inactivity)
+- **1.5** Password Recovery & Reset Mechanism
 
-<h3>1. User Authentication & Access Control</h3>
-<p><strong>1.1</strong> User Registration/Login (with Multi-Factor Authentication - MFA)</p>
-<p><strong>1.2</strong> Role-based Access Control (Admin, User)</p>
-<p><strong>1.3</strong> Invitation-based User Onboarding via Email</p>
-<p><strong>1.4</strong> Session Management (Auto Logout on Inactivity)</p>
-<p><strong>1.5</strong> Password Recovery & Reset Mechanism</p>
+### 2. Workspaces & Collaboration
+- **2.1** Workspace Creation & Management (Team & Individual)
+- **2.2** User Permissions within Workspaces (Admin controls access rights)
+- **2.3** Sharing Files & Messages in Workspaces Only
 
-<h3>2. Workspaces & Collaboration</h3>
-<p><strong>2.1</strong> Workspace Creation & Management (Team & Individual)</p>
-<p><strong>2.2</strong> User Permissions within Workspaces (Admin controls access rights)</p>
-<p><strong>2.3</strong> Sharing Files & Messages in Workspaces Only</p>
+### 3. Secure Communication
+- **3.1** End-to-End Encrypted Chat
+- **3.2** Screenshot (SS) Privacy Protection
+- **3.3** Voice Messages (Encrypted Storage & Transmission)
+- **3.4** Voice & Video Calls (Optional, WebRTC-based, Encrypted)
 
-<h3>3. Secure Communication</h3>
-<p><strong>3.1</strong> End-to-End Encrypted Chat</p>
-<p><strong>3.2</strong> Screenshot (SS) Privacy Protection</p>
-<p><strong>3.3</strong> Voice Messages (Encrypted Storage & Transmission)</p>
-<p><strong>3.4</strong> Voice & Video Calls (Optional, WebRTC-based, Encrypted)</p>
+### 4. Secure File Storage & Sharing
+- **4.1** File Upload & Sharing within Workspace
+- **4.2** Files Stored on IPFS (Decentralized Storage)
+- **4.3** File Integrity Verification (Hash stored on Ethereum Blockchain)
+- **4.4** File Expiry or Self-Destruction Option
 
-<h3>4. Secure File Storage & Sharing</h3>
-<p><strong>4.1</strong> File Upload & Sharing within Workspace</p>
-<p><strong>4.2</strong> Files Stored on IPFS (Decentralized Storage)</p>
-<p><strong>4.3</strong> File Integrity Verification (Hash stored on Ethereum Blockchain)</p>
-<p><strong>4.4</strong> File Expiry or Self-Destruction Option</p>
+### 5. Encryption
+- **5.1** Encryption for File & Chat Data
+- **5.2** Blockchain Hashing for File Verification (Ethereum-based)
 
-<h3>5. Encryption</h3>
-<p><strong>5.1</strong> Encryption for File & Chat Data</p>
-<p><strong>5.2</strong> Blockchain Hashing for File Verification (Ethereum-based)</p>
+### 6. Security
+- **6.1** Admin Security Rating (%) for Users Based on Settings & Behavior
+- **6.2** Online Status Visibility Control (Show/Hide Online Status)
+- **6.3** Connection via Invitation Only (No Public Profile Listing)
+- **6.4** Admin Monitoring & Security Logs (Audit trail for user activities)
 
-<h3>6. Security</h3>
-<p><strong>6.1</strong> Admin Security Rating (%) for Users Based on Settings & Behavior</p>
-<p><strong>6.2</strong> Online Status Visibility Control (Show/Hide Online Status)</p>
-<p><strong>6.3</strong> Connection via Invitation Only (No Public Profile Listing)</p>
-<p><strong>6.4</strong> Admin Monitoring & Security Logs (Audit trail for user activities)</p>
+### 7. Notifications & Alerts
+- **7.1** Real-time Notifications for Messages & Files
+- **7.2** File Access Notifications
 
-<h3>7. Notifications & Alerts</h3>
-<p><strong>7.1</strong> Real-time Notifications for Messages & Files</p>
-<p><strong>7.2</strong> File Access Notifications</p>
+### 8. System & Performance Optimization
+- **8.1** Auto Cleanup for Old/Expired Data
 
-<h3>8. System & Performance Optimization</h3>
-<p><strong>8.1</strong> Auto Cleanup for Old/Expired Data</p>
+## 📊 Non-Functional Requirements (NFRs)
 
-<h2>📊 Non-Functional Requirements (NFRs)</h2>
+### 1. Performance & Scalability
+- **1.1** Fast & Efficient File Uploads/Downloads (Optimized IPFS handling, supports 3GB file)
+- **1.2** Scalable Infrastructure
+- **1.3** WebRTC Optimization for Video Calls
 
-<h3>1. Performance & Scalability</h3>
-<p><strong>1.1</strong> Fast & Efficient File Uploads/Downloads (Optimized IPFS handling, supports 3GB file)</p>
-<p><strong>1.2</strong> Scalable Infrastructure</p>
-<p><strong>1.3</strong> WebRTC Optimization for Video Calls</p>
+### 2. Security
+- **2.1** End-to-End Encryption
+- **2.2** Data Privacy
+- **2.3** Regular Security Audits & Penetration Testing
 
-<h3>2. Security</h3>
-<p><strong>2.1</strong> End-to-End Encryption</p>
-<p><strong>2.2</strong> Data Privacy</p>
-<p><strong>2.3</strong> Regular Security Audits & Penetration Testing</p>
+### 3. Availability & Reliability
+- **3.1** Uptime Guarantee
+- **3.2** Data Redundancy on IPFS
 
-<h3>3. Availability & Reliability</h3>
-<p><strong>3.1</strong> Uptime Guarantee</p>
-<p><strong>3.2</strong> Data Redundancy on IPFS</p>
+### 4. Usability & Accessibility
+- **4.1** User-Friendly UI/UX (Easy navigation, mobile responsiveness)
 
-<h3>4. Usability & Accessibility</h3>
-<p><strong>4.1</strong> User-Friendly UI/UX (Easy navigation, mobile responsiveness)</p>
+### 5. Maintainability & Modularity
+- **5.1** The code should be organized, making it easy to update or add new features.
 
-<h3>5. Maintainability & Modularity</h3>
-<p><strong>5.1</strong> The code should be organized, making it easy to update or add new features.</p>
-
-<h2>Use Cases</h2>
-
-
-
+## Use Cases
