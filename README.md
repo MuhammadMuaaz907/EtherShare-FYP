@@ -71,6 +71,8 @@ Taha Khan <br>
 <h3>4. Usability & Accessibility</h3>
 <p><strong>4.1</strong> User-Friendly UI/UX (Easy navigation, mobile responsiveness)</p>
 
+<h2>Use Cases</h2>
+
 <h3>5. Maintainability & Modularity</h3>
 <p><strong>5.1</strong> The code should be organized, making it easy to update or add new features.</p>
 
