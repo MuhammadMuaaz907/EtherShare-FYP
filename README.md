@@ -3,16 +3,6 @@
 ## Project Description
 
 ## Group Members:
-- **Muhammad Muaaz Waleed** (14470)
-- **Syed Yawer Ali**
-- **Samra Maryum**
-- **Taha Khan**
-
-# EtherShare - Blockchain based Secure File Sharing and Communication App
-
-## Project Description
-
-## Group Members:
 
 - **Muhammad Muaaz Waleed** (14470)  
 - **Syed Yawer Ali**  
@@ -23,7 +13,7 @@
 
 ### 1. User Authentication & Access Control  
 
-- **1.1** User Registration/Login (with Multi-Factor Authentication - MFA)  
+**1.1** User Registration/Login (with Multi-Factor Authentication - MFA) <br> 
 - **1.2** Role-based Access Control (Admin, User)  
 - **1.3** Invitation-based User Onboarding via Email  
 - **1.4** Session Management (Auto Logout on Inactivity)  
