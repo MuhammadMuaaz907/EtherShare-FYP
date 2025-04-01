@@ -7,7 +7,7 @@ Samra Maryum <br>
 Taha Khan <br>
 
 
-Functional Requirements (FRs)
+<Functional Requirements (FRs)
 1. User Authentication & Access Control
 1.1 User Registration/Login (with Multi-Factor Authentication - MFA)
 1.2 Role-based Access Control (Admin, User)
