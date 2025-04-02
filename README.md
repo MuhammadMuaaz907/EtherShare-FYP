@@ -87,6 +87,3 @@ Blockchain-based Decentralized Secure File Sharing and Communication System, aim
 ### 5. Maintainability & Modularity  
 
 **5.1** The code should be organized, making it easy to update or add new features. <br>  
-
-## Use Cases
-![Use Case Diagram](/assests/images/Use Case Diagram.jpg)
