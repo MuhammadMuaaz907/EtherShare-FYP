@@ -5,7 +5,7 @@ Blockchain-based Decentralized Secure File Sharing and Communication System, aim
 
 ## Group Members:  
 
-- **Muhammad Muaaz Waleed** (14470) <br>  
+- **Muhammad Muaaz Waleed** <br>  
 - **Syed Yawer Ali** <br>  
 - **Samra Maryum** <br>  
 - **Taha Khan** <br>  
