@@ -1,6 +1,7 @@
 # EtherShare - Blockchain based Secure File Sharing and Communication App  
 
 ## Project Description  
+Blockchain-based Decentralized Secure File Sharing and Communication System, aims to provide a secure, scalable, and efficient solution for sharing and communicating files using blockchain technology. It leverages Ethereum blockchain for transactions, IPFS (InterPlanetary File System) for decentralized file storage, and end-to-end encryption to ensure data privacy and security. The system will implement role-based access control (owner, viewer, editor) and integrate Ethereum-based payments (ETH) for file access. The goal is to eliminate reliance on centralized servers, reduce the risk of data breaches, and improve transparency in file-sharing systems.
 
 ## Group Members:  
 
